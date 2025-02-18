@@ -70,11 +70,8 @@ Properties are stored in JSON format for different regions:
 
 ### Customer Data
 Customer information and preferences are stored in CSV format with fields for:
-- Contact information
-- Property preferences
-- Location preferences
-- Price range
-- Property type requirements
+- Phone Number
+- Interest
 
 ## Caching
 
@@ -82,4 +79,4 @@ The system implements a caching mechanism with a 5-minute duration to optimize p
 
 ## License
 
-ISC 
+MIT 
