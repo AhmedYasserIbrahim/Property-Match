@@ -19,26 +19,36 @@ This project is a web-based application that provides personalized property list
 - A browser (Chrome, Firefox, Edge, etc.).
 
 ### Steps to Run Locally
-1. **Clone the Repository**
-   ```sh
-   git clone --branch main --single-branch https://github.com/AhmedYasserIbrahim/Property-Match.git
-   cd Property-Match
+### Steps to Run Locally
 
-   ```
-2. **Install Dependencies** (if applicable)
-   ```sh
-   npm install
-   ```
-3. **Run the Application**
-   ```sh
-   npm start
-   ```
-4. **Access the Application**
-   - Open a browser and navigate to:
+1. **Download the Code**  
+   - Click on the **Code** button in GitHub and select **Download ZIP**.  
+   - Alternatively, use this direct link:  
+     [Download ZIP](https://github.com/AhmedYasserIbrahim/Property-Match/archive/refs/heads/main.zip)
+
+2. **Extract the ZIP File**  
+   - Locate the downloaded ZIP file in your **Downloads** folder.  
+   - Right-click and select **Extract All** (Windows) or **Unzip** (Mac).
+
+3. **Open in VS Code**  
+   - Open **VS Code**.  
+   - Click **File > Open Folder** and select the extracted project folder.
+
+4. **Run the Server**  
+   - Open the **integrated terminal** in VS Code (`Ctrl + ~` or `Cmd + ~` on Mac).  
+   - Run the following command:
+     ```sh
+     node server.js
+     ```
+
+5. **Access the Application**  
+   - Open a browser and go to:
      ```
      http://localhost:3000
      ```
-   - Enter the phone number to search
+   - Enter the phone number to search.
+
+Now the application should be running locally!
 
 ## Project Structure
 ```
