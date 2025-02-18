@@ -1,4 +1,4 @@
-# Property Listing Suggestions
+# Property Match
 
 ## Overview
 This project is a web-based application that provides personalized property listings to users based on their preferences. Users can interact with property suggestions by liking or disliking them. If they dislike a property, they are prompted to provide predefined reasons for review. The collected feedback does not dynamically alter the suggestions but helps in understanding customer behavior.
