@@ -19,7 +19,6 @@ This project is a web-based application that provides personalized property list
 - A browser (Chrome, Firefox, Edge, etc.).
 
 ### Steps to Run Locally
-### Steps to Run Locally
 
 1. **Download the Code**  
    - Click on the **Code** button in GitHub and select **Download ZIP**.  
@@ -34,7 +33,20 @@ This project is a web-based application that provides personalized property list
    - Open **VS Code**.  
    - Click **File > Open Folder** and select the extracted project folder.
 
-4. **Run the Server**  
+4. **Initialize the Project** (If not already initialized)  
+   - Open the **integrated terminal** in VS Code (`Ctrl + ~` or `Cmd + ~` on Mac).  
+   - Run the following command to create a `package.json` file:
+     ```sh
+     npm init -y
+     ```
+
+5. **Install Dependencies**  
+   - Install Express (if not already installed):
+     ```sh
+     npm install express
+     ```
+
+6. **Run the Server**  
    - Open the **integrated terminal** in VS Code (`Ctrl + ~` or `Cmd + ~` on Mac).  
    - Run the following command:
      ```sh
